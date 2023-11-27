@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Personal blog and portfolio of James Hawkins",
-  "author": "jhawksno",
+  "author": "James Hawkins",
   "keywords": [
     "gatsby"
   ],
@@ -15,10 +15,16 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^5.12.4",
-    "gatsby-plugin-image": "^3.12.3",
-    "gatsby-plugin-sharp": "^5.12.3",
-    "gatsby-source-filesystem": "^5.12.1",
+    "@mdx-js/react": "^2.1.2",
+    "gatsby": "^5.0.0",
+    "gatsby-plugin-image": "^3.0.0",
+    "gatsby-plugin-mdx": "^5.0.0",
+    "gatsby-plugin-sharp": "^5.0.0",
+    "gatsby-remark-autolink-headers": "^6.12.3",
+    "gatsby-remark-prismjs": "^7.12.0",
+    "gatsby-source-filesystem": "^5.0.0",
+    "gatsby-transformer-remark": "^6.12.3",
+    "gatsby-transformer-sharp": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
