@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll"
+gem 'bootstrap', '~> 5.3.2'
 
 group :jekyll_plugins do
   gem "jekyll-feed"
