@@ -274,8 +274,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap (~> 5.3.2)
-  github-pages (~> 228)
-  jekyll
+  github-pages
   jekyll-feed
   jekyll-seo-tag
   tzinfo (>= 1, < 3)
