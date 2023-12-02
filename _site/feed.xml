@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-29T12:33:18-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">James Hawkins Codes</title><subtitle>A personal blog and portfolio.</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-02T11:34:12-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">James Hawkins Codes</title><subtitle>This is my personal blog about coding. This site will be built with Jekyll, Bootstrap and GitHub Pages.</subtitle><author><name>James Hawkins</name><email>james.hawkins@snolab.ca</email></author><entry><title type="html">Test Post</title><link href="http://localhost:4000/general/2023/11/30/Test-Post.html" rel="alternate" type="text/html" title="Test Post" /><published>2023-11-30T00:00:00-05:00</published><updated>2023-11-30T00:00:00-05:00</updated><id>http://localhost:4000/general/2023/11/30/Test-Post</id><content type="html" xml:base="http://localhost:4000/general/2023/11/30/Test-Post.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.&lt;/p&gt;
+
+&lt;p&gt;Sed nec augue at odio fringilla cursus. Nulla facilisi. Suspendisse potenti. Quisque aliquam sagittis arcu, a tempor elit dignissim sed. Nullam eu justo eget nulla cursus gravida. Fusce tincidunt nisl id massa facilisis, vel bibendum est tristique. Duis convallis vehicula magna, vitae varius purus interdum non. Vivamus ullamcorper, ligula sit amet convallis eleifend, elit erat fermentum ligula, vel egestas libero ipsum nec turpis. In hac habitasse platea dictumst. Nam feugiat fermentum justo, eget vehicula elit consectetur sed. Vivamus malesuada nulla eget purus aliquet, in consectetur libero aliquam. Donec accumsan erat at odio tempus eleifend.&lt;/p&gt;</content><author><name>James Hawkins</name><email>james.hawkins@snolab.ca</email></author><category term="General" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.</summary></entry><entry><title type="html">Power Platform Certifications</title><link href="http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications.html" rel="alternate" type="text/html" title="Power Platform Certifications" /><published>2023-11-30T00:00:00-05:00</published><updated>2023-11-30T00:00:00-05:00</updated><id>http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications</id><content type="html" xml:base="http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications.html">&lt;h2 id=&quot;practice-assessments&quot;&gt;Practice assessments&lt;/h2&gt;
+
+&lt;p&gt;There are now free pratice assessments for exams:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications&quot;&gt;Practice Assessments&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-power-platform-certifications&quot;&gt;The Power Platform Certifications&lt;/h2&gt;
+
+&lt;p&gt;MB-910: Microsoft Dynamics 365 Fundamentals (CRM)
+MB-920: Microsoft Dynamics 365 Fundamentals (ERP)
+PL-900: Microsoft Power Platform Fundamentals
+PL-100: Microsoft Power Platform App Maker
+PL-200: Microsoft Power Platform Functional Consultant
+PL-300: Microsoft Power BI Data Analyst
+PL-400: Microsoft Power Platform Developer&lt;/p&gt;
+
+&lt;h2 id=&quot;developer-tenant-and-environment&quot;&gt;Developer Tenant and Environment&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Welcome to the Microsoft 365 Developer Program&lt;/td&gt;
+      &lt;td&gt;Microsoft Learn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Get your developer environment - Power Apps&lt;/td&gt;
+      &lt;td&gt;Microsoft Learn&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>James Hawkins</name><email>james.hawkins@snolab.ca</email></author><category term="Power Platform" /><summary type="html">Practice assessments</summary></entry><entry><title type="html">Building a Website with Jekyll</title><link href="http://localhost:4000/jekyll/2023/11/30/Setting-up-a-jekyll-site.html" rel="alternate" type="text/html" title="Building a Website with Jekyll" /><published>2023-11-30T00:00:00-05:00</published><updated>2023-11-30T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/2023/11/30/Setting-up-a-jekyll-site</id><content type="html" xml:base="http://localhost:4000/jekyll/2023/11/30/Setting-up-a-jekyll-site.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.&lt;/p&gt;
+
+&lt;p&gt;Sed nec augue at odio fringilla cursus. Nulla facilisi. Suspendisse potenti. Quisque aliquam sagittis arcu, a tempor elit dignissim sed. Nullam eu justo eget nulla cursus gravida. Fusce tincidunt nisl id massa facilisis, vel bibendum est tristique. Duis convallis vehicula magna, vitae varius purus interdum non. Vivamus ullamcorper, ligula sit amet convallis eleifend, elit erat fermentum ligula, vel egestas libero ipsum nec turpis. In hac habitasse platea dictumst. Nam feugiat fermentum justo, eget vehicula elit consectetur sed. Vivamus malesuada nulla eget purus aliquet, in consectetur libero aliquam. Donec accumsan erat at odio tempus eleifend.&lt;/p&gt;</content><author><name>James Hawkins</name><email>james.hawkins@snolab.ca</email></author><category term="Jekyll" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.</summary></entry></feed>

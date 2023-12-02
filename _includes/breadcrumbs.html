@@ -1,0 +1,17 @@
+<div class="container pt-5">
+  {% if page.url != "/" %}
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{{ site.baseurl }}">Home</a></li>
+      {% if page.categories %} {% for category in page.categories %}
+      <li class="breadcrumb-item">
+        <a href="/categories/{{ category | slugify }}/">{{ category }}</a>
+      </li>
+      {% endfor %} {% endif %}
+      <li class="breadcrumb-item active" aria-current="page">
+        {{ page.title }}
+      </li>
+    </ol>
+  </nav>
+  {% endif %}
+</div>

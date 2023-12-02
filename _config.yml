@@ -1,11 +1,93 @@
-url: "https://jameshawkins.codes"
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "James Hawkins Codes"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+# theme                   : power-maker-jekyll
+# power_maker_skin        : "default", "dark", "light"
+
+# Site settings
+locale                    : "en-US"
+title                     : "James Hawkins Codes"
+title_seperator           : "-"
+subtitle                  : #site tagline
+name                      : "James Hawkins"
+description               : This is my personal blog about coding. This site will be built with Jekyll, Bootstrap and GitHub Pages.
+url                       : "https://jameshawkins.codes"
+baseurl                   : "/" # the subpath of your site, e.g. /blog
+repository                : "jhawksno/james-hawkins-codes"
+logo                      : #path of logo image to display in header, e.g. "/assets/images/your-logo.png"
+breadcrumbs               : true #disabled by default
+
+# SEO Related
+#google_site_verification :
+#bing_site_verification   :
+#naver_site_verification  :
+#yandex_site_verification :
+#baidu_site_verification  :
+
+#Social Sharing
+#twitter:
+#  username               :
+#facebook:
+#  username               :
+#  app_id                 :
+#  publisher              :
+#og_image                 : # Open Graph/Twitter default site image
+
+# Site Author
+author:
+  name: "James Hawkins"
+  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "I am an **amazing** person."
+  location: "Canada"
+  email: james.hawkins@snolab.ca
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/jhawksno/
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 # Where things are
-source: .
-destination: ./_site
-collections_dir: .
 plugins_dir: _plugins # takes an array of strings and loads plugins in that order
 layouts_dir: _layouts
 data_dir: _data
@@ -16,29 +98,42 @@ collections:
   posts:
     output: true
 
-# Plugins
-whitelist: []
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Handling Reading
-safe: false
-include: [".htaccess"]
+# Reading Files
+include:
+  - .htaccess
+  - _posts
 exclude:
-  [
-    "Gemfile",
-    "Gemfile.lock",
-    "node_modules",
-    "vendor/bundle/",
-    "vendor/cache/",
-    "vendor/gems/",
-    "vendor/ruby/",
-  ]
-keep_files: [".git", ".svn"]
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Power Maker /docs
+  - /test # ignore Power Maker /test
+keep_files:
+  - .git
+  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-strict_front_matter: false
 
 # Conversion
 markdown: kramdown
@@ -47,18 +142,61 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 # Outputting
-permalink: date
+permalink: /:categories/:year/:month/:day/:title:output_ext
+paginate: 5 # amount of posts to show
 paginate_path: /page:num
 timezone: null
 
-# Markdown Processors
-kramdown:
-  auto_ids: true
-  entity_output: as_char
-  toc_levels: [1, 2, 3, 4, 5, 6]
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  input: GFM
-  hard_wrap: false
-  footnote_nr: 1
-  show_warnings: false
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true

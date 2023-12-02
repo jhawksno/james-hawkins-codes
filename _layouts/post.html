@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article>
+  <h2>{{ page.title }}</h2>
+  <p class="text-body-secondary">
+    Posted {{ page.date | date: "%B %-d, %Y" }} by {{ page.author }} | {{
+    post.categories }}
+  </p>
+
+  <!-- Content of the blog post -->
+  {{ content }}
+</article>
