@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building a Website with Jekyll
-authour: James
+author: James
 categories: [Jekyll]
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.

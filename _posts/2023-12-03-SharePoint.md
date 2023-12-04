@@ -2,7 +2,7 @@
 layout: post
 title: Test Post
 author: James
-categories: [General]
+categories: [SharePoint]
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.
 

@@ -22,25 +22,9 @@ repository                : "jhawksno/james-hawkins-codes"
 logo                      : #path of logo image to display in header, e.g. "/assets/images/your-logo.png"
 breadcrumbs               : true #disabled by default
 
-# SEO Related
-#google_site_verification :
-#bing_site_verification   :
-#naver_site_verification  :
-#yandex_site_verification :
-#baidu_site_verification  :
-
-#Social Sharing
-#twitter:
-#  username               :
-#facebook:
-#  username               :
-#  app_id                 :
-#  publisher              :
-#og_image                 : # Open Graph/Twitter default site image
-
 # Site Author
 author:
-  name: "James Hawkins"
+  name: "James"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "I am an **amazing** person."
   location: "Canada"
@@ -51,41 +35,8 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
-# Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: https://github.com/jhawksno/
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
 
 # Where things are
 plugins_dir: _plugins # takes an array of strings and loads plugins in that order

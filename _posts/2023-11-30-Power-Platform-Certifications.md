@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Power Platform Certifications
-authour: James
+author: James
 categories: ["Power Platform"]
 ---
 
