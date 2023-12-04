@@ -7,6 +7,8 @@ gem 'bootstrap', '~> 5.3.2'
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
+  gem 'jekyll-paginate', '~> 1.1'
+  gem 'jekyll-sitemap', '~> 1.4'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :x86_64-linux, :jruby do
