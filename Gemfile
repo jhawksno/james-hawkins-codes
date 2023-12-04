@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby '3.2.2'
 
-gem "github-pages", group: :jekyll_plugins
+gem 'github-pages', '~> 228'
 gem 'bootstrap', '~> 5.3.2'
 
 group :jekyll_plugins do
