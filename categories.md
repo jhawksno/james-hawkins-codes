@@ -1,12 +1,4 @@
 ---
-layout: default
+layout: categories
 title: Categories
 ---
-
-<h2>{{ page.title }}</h2>
-
-<ul>
-  {% for category in site.categories %}
-    <li><a href="/categories/{{ category[0] | slugify }}/">{{ category[0] }}</a></li>
-  {% endfor %}
-</ul>
