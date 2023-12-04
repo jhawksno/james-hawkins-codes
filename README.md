@@ -4,11 +4,7 @@ This is my personal portfolio and blog about coding. This site is currently bein
 
 ## Theme Requirements
 
-Jekyll
-[![Gem Version](https://badge.fury.io/rb/jekyll.svg)](https://badge.fury.io/rb/jekyll)
-
-Jekyll Bootsrap Sass
-[![Gem Version](https://badge.fury.io/rb/jekyll-bootstrap-sass.svg)](https://badge.fury.io/rb/jekyll-bootstrap-sass)
+[![Jeykll](https://badge.fury.io/rb/jekyll.svg)](https://badge.fury.io/rb/jekyll) [![jekyll-bootstrap-sass](https://badge.fury.io/rb/jekyll-bootstrap-sass.svg)](https://badge.fury.io/rb/jekyll-bootstrap-sass)
 
 ## To Do List
 
