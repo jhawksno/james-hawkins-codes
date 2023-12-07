@@ -10,81 +10,50 @@
 # power_maker_skin        : "default", "dark", "light"
 
 # Site settings
-locale                    : "en-US"
-title                     : "James Hawkins Codes"
-title_seperator           : "-"
-subtitle                  : #site tagline
-name                      : "James Hawkins"
-description               : This is my personal blog about coding. This site will be built with Jekyll, Bootstrap and GitHub Pages.
-url                       : "https://jameshawkins.codes"
-baseurl                   : "/" # the subpath of your site, e.g. /blog
-repository                : "jhawksno/james-hawkins-codes"
-logo                      : #path of logo image to display in header, e.g. "/assets/images/your-logo.png"
-breadcrumbs               : true #disabled by default
-
-# Site Author
-author:
-  name: "James"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Canada"
-  email: james.hawkins@snolab.ca
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+locale: "en-US"
+title: "James Hawkins Codes"
+title_seperator: "-"
+subtitle: #site tagline
+name: "James Hawkins"
+description: This is my personal blog about coding. This site will be built with Jekyll, Bootstrap and GitHub Pages.
+url: "https://jameshawkins.codes"
+baseurl: "/" # the subpath of your site, e.g. /blog
+repository: "jhawksno/james-hawkins-codes"
+logo: #path of logo image to display in header, e.g. "/assets/images/your-logo.png"
+breadcrumbs: true #disabled by default
 
 # Where things are
+source: .
+destination: ./_site
+collections_dir: .
 plugins_dir: _plugins # takes an array of strings and loads plugins in that order
 layouts_dir: _layouts
 data_dir: _data
 includes_dir: _includes
 sass:
   sass_dir: _sass
+  style: compressed
 collections:
   posts:
     output: true
 
-# Reading Files
-include:
-  - .htaccess
-  - _posts
+# Handling Reading
+safe: false
+include: [".htaccess"]
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Power Maker /docs
-  - /test # ignore Power Maker /test
-keep_files:
-  - .git
-  - .svn
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+  ]
+keep_files: [".git", ".svn"]
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter: false
 
 # Conversion
 markdown: kramdown
@@ -93,27 +62,27 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Markdown Processing
+# Markdown Processors
 kramdown:
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: [1, 2, 3, 4, 5, 6]
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
   input: GFM
   hard_wrap: false
-  auto_ids: true
   footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  show_warnings: false
 
 # Outputting
 permalink: /:categories/:year/:month/:day/:title:output_ext
 paginate: 5 # amount of posts to show
 paginate_path: /page:num
 timezone: null
+
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
 
 # Plugins (previously gems:)
 plugins:
