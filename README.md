@@ -7,6 +7,7 @@ _It is a work-in-progress and may contain bugs and layout issues._
 ## Jekyll Website Build
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll.svg)][ruby-gems]
+
 [ruby-gems]: <https://rubygems.org/gems/jekyll>
 
 ## To Do List
