@@ -38,7 +38,7 @@ collections:
 
 # Handling Reading
 safe: false
-include: [".htaccess"]
+include: [".htaccess", _posts]
 exclude:
   [
     "Gemfile",
