@@ -1,6 +1,6 @@
 # JamesHawkins.Codes
 
-This is my personal portfolio and blog about coding. This site is currently being built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://www.getSbootstrap.com) and hosted by [GitHub Pages](https://pages.github.com).
+This is my personal portfolio and blog about coding. This site is currently being built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com/) and hosted by [GitHub Pages](https://pages.github.com).
 
 *It is a work-in-progress and may contain bugs and layout issues.*
 
@@ -17,3 +17,4 @@ This is my personal portfolio and blog about coding. This site is currently bein
 * Format Catagories pages
 * Build the About Me page
 * Add a Contact page with contact form
+* Add functioning Search form
