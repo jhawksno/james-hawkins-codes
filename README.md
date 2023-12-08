@@ -1,6 +1,8 @@
-# James Hawkins Codes
+# JamesHawkins.Codes
 
-This is my personal portfolio and blog about coding. This site is currently being built with Jekyll, Bootstrap and GitHub Pages. It is a work-in-progress and may contain bugs and layout issues.
+This is my personal portfolio and blog about coding. This site is currently being built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://www.bootstrap.com) and hosted by [GitHub Pages](https://pages.github.com).
+
+*It is a work-in-progress and may contain bugs and layout issues.*
 
 ## Website Build
 
@@ -10,5 +12,5 @@ This is my personal portfolio and blog about coding. This site is currently bein
 
 ## To Do List
 
-* Add pagination to blog and blog posts
+* Add pagination to blog page and blog posts
 * Add social media links to footer
