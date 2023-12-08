@@ -4,17 +4,27 @@ This is my personal portfolio and blog about coding. This site is currently bein
 
 *It is a work-in-progress and may contain bugs and layout issues.*
 
-## Website Build
+## Jekyll Website Build
 
-![Gem](https://img.shields.io/gem/dv/jekyll/4.3.2?logo=jekyll&label=Jekyll&link=https%3A%2F%2Fjekyllrb.com%2F)
-
-![Gem](https://img.shields.io/gem/dv/Ruby/3.2?logo=ruby)
+[![Gem Version](https://img.shields.io/gem/v/jekyll.svg)][ruby-gems]
+[ruby-gems]: <https://rubygems.org/gems/jekyll>
 
 ## To Do List
 
+* Fix badges on README.md
 * Add pagination to blog page and blog posts
 * Add social media links to footer
 * Format Catagories pages
 * Build the About Me page
 * Add a Contact page with contact form
 * Add functioning Search form
+* Add Archives for posts
+* Organize Bootstrap imports
+* Remove unused Bootstrap files
+* Add a Changelog.md
+* Clean up and improve layouts, clean up layout code
+* Clean up and improve includes, clean up includes code
+* Remove all unnecessary website files
+* Clean up and optimize _config.yml
+* Clean up and optimize Gemfile
+* Create a custom Jekyll theme
