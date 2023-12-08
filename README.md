@@ -7,6 +7,7 @@ This is my personal portfolio and blog about coding. This site is currently bein
 ## Jekyll Website Build
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll.svg)][ruby-gems]
+
 [ruby-gems]: https://rubygems.org/gems/jekyll
 
 ## To Do List
