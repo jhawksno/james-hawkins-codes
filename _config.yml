@@ -10,7 +10,7 @@ url: "https://jameshawkins.codes"
 baseurl: "/" # the subpath of your site, e.g. /blog
 repository: "jhawksno/james-hawkins-codes"
 logo: #path of logo image to display in header, e.g. "/assets/images/your-logo.png"
-breadcrumbs: true #disabled by default
+breadcrumbs: true
 
 # Where things are
 destination: ./_site
