@@ -90,23 +90,11 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
-# HTML Compression
-# - https://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
 # Defaults
 defaults:
   # Posts
   - scope:
-      path: _posts
+      path: ""
       type: posts
     values:
       layout: default
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
