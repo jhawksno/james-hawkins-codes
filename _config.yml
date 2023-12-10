@@ -13,6 +13,7 @@ logo: #path of logo image to display in header, e.g. "/assets/images/your-logo.p
 breadcrumbs: true
 
 # Where things are
+source: .
 destination: ./_site
 collections_dir: .
 plugins_dir: _plugins # takes an array of strings and loads plugins in that order
