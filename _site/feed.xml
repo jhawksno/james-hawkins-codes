@@ -1,1 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-10T10:02:52-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">James_Hawkins.Codes</title><subtitle>This is my personal blog about coding. This site will be built with Jekyll, Bootstrap and GitHub Pages.</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-15T14:04:33-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">James_Hawkins.Codes</title><subtitle>This is my personal blog about coding. This site will be built with Jekyll, Bootstrap and GitHub Pages.</subtitle><entry><title type="html">SharePoint Development</title><link href="http://localhost:4000/sharepoint/2023/12/03/SharePoint.html" rel="alternate" type="text/html" title="SharePoint Development" /><published>2023-12-03T00:00:00-05:00</published><updated>2023-12-03T00:00:00-05:00</updated><id>http://localhost:4000/sharepoint/2023/12/03/SharePoint</id><content type="html" xml:base="http://localhost:4000/sharepoint/2023/12/03/SharePoint.html">&lt;p&gt;This area is for SharePoint development posts.&lt;/p&gt;
+
+&lt;h2 id=&quot;sharepoint-spfx-releases&quot;&gt;SharePoint SPFx Releases&lt;/h2&gt;
+
+&lt;p&gt;You can find a list of all official SPFx versions here: &lt;a href=&quot;https://learn.microsoft.com/en-us/sharepoint/dev/spfx/roadmap&quot;&gt;SharePoint Framework Releases&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The latest version is currently &lt;a href=&quot;https://learn.microsoft.com/en-us/sharepoint/dev/spfx/release-1.18.2&quot;&gt;SPFx v1.18.2&lt;/a&gt; - November 21, 2023.&lt;/p&gt;
+
+&lt;h2 id=&quot;install-the-lastest-version&quot;&gt;Install the Lastest Version&lt;/h2&gt;
+
+&lt;p&gt;Install the latest release of the SharePoint Framework (SPFx) by including the @latest tag:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install @microsoft/generator-sharepoint@latest --global
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;upgrading-projects-from-v118-to-v1182&quot;&gt;Upgrading projects from v1.18 to v1.18.2&lt;/h2&gt;
+
+&lt;p&gt;In the project’s package.json file, identify all SPFx packages. For each SPFx package:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Uninstall the existing packages:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Node&quot;&gt;npm uninstall @microsoft/{spfx-package-name}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Install the new v1.18.2 packages:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;kdb&gt;
+npm install @microsoft/{spfx-package-name}@latest --save --save-exact
+&lt;/kdb&gt;</content><author><name>James</name></author><category term="SharePoint" /><summary type="html">This area is for SharePoint development posts.</summary></entry><entry><title type="html">Power Platform Certifications</title><link href="http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications.html" rel="alternate" type="text/html" title="Power Platform Certifications" /><published>2023-11-30T00:00:00-05:00</published><updated>2023-11-30T00:00:00-05:00</updated><id>http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications</id><content type="html" xml:base="http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications.html">&lt;h2 id=&quot;practice-assessments&quot;&gt;Practice assessments&lt;/h2&gt;
+
+&lt;p&gt;Find a free pratice assessments for your exam:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications&quot;&gt;Practice Assessments&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-power-platform-certifications&quot;&gt;The Power Platform Certifications&lt;/h2&gt;
+
+&lt;p&gt;PL-900: Microsoft Power Platform Fundamentals
+PL-100: Microsoft Power Platform App Maker
+PL-200: Microsoft Power Platform Functional Consultant
+PL-300: Microsoft Power BI Data Analyst
+PL-400: Microsoft Power Platform Developer
+PL-600: Microsoft Power Platform Solution Architect&lt;/p&gt;
+
+&lt;h2 id=&quot;developer-tenant-and-environment&quot;&gt;Developer Tenant and Environment&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Welcome to the Microsoft 365 Developer Program&lt;/td&gt;
+      &lt;td&gt;Microsoft Learn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Get your developer environment - Power Apps&lt;/td&gt;
+      &lt;td&gt;Microsoft Learn&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>James</name></author><category term="Power Platform" /><summary type="html">Practice assessments</summary></entry><entry><title type="html">Building a Website with Jekyll</title><link href="http://localhost:4000/jekyll/2023/11/30/Setting-up-a-jekyll-site.html" rel="alternate" type="text/html" title="Building a Website with Jekyll" /><published>2023-11-30T00:00:00-05:00</published><updated>2023-11-30T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/2023/11/30/Setting-up-a-jekyll-site</id><content type="html" xml:base="http://localhost:4000/jekyll/2023/11/30/Setting-up-a-jekyll-site.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.&lt;/p&gt;
+
+&lt;p&gt;Sed nec augue at odio fringilla cursus. Nulla facilisi. Suspendisse potenti. Quisque aliquam sagittis arcu, a tempor elit dignissim sed. Nullam eu justo eget nulla cursus gravida. Fusce tincidunt nisl id massa facilisis, vel bibendum est tristique. Duis convallis vehicula magna, vitae varius purus interdum non. Vivamus ullamcorper, ligula sit amet convallis eleifend, elit erat fermentum ligula, vel egestas libero ipsum nec turpis. In hac habitasse platea dictumst. Nam feugiat fermentum justo, eget vehicula elit consectetur sed. Vivamus malesuada nulla eget purus aliquet, in consectetur libero aliquam. Donec accumsan erat at odio tempus eleifend.&lt;/p&gt;</content><author><name>James</name></author><category term="Jekyll" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.</summary></entry><entry><title type="html">Test Post</title><link href="http://localhost:4000/general/2023/11/30/Test-Post.html" rel="alternate" type="text/html" title="Test Post" /><published>2023-11-30T00:00:00-05:00</published><updated>2023-11-30T00:00:00-05:00</updated><id>http://localhost:4000/general/2023/11/30/Test-Post</id><content type="html" xml:base="http://localhost:4000/general/2023/11/30/Test-Post.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.&lt;/p&gt;
+
+&lt;p&gt;Sed nec augue at odio fringilla cursus. Nulla facilisi. Suspendisse potenti. Quisque aliquam sagittis arcu, a tempor elit dignissim sed. Nullam eu justo eget nulla cursus gravida. Fusce tincidunt nisl id massa facilisis, vel bibendum est tristique. Duis convallis vehicula magna, vitae varius purus interdum non. Vivamus ullamcorper, ligula sit amet convallis eleifend, elit erat fermentum ligula, vel egestas libero ipsum nec turpis. In hac habitasse platea dictumst. Nam feugiat fermentum justo, eget vehicula elit consectetur sed. Vivamus malesuada nulla eget purus aliquet, in consectetur libero aliquam. Donec accumsan erat at odio tempus eleifend.&lt;/p&gt;</content><author><name>James</name></author><category term="General" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.</summary></entry></feed>

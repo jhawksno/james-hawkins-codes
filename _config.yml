@@ -12,13 +12,6 @@ repository: "jhawksno/james-hawkins-codes"
 breadcrumbs: true
 
 # Where things are
-source: .
-destination: ./_site
-collections_dir: .
-plugins_dir: _plugins # takes an array of strings and loads plugins in that order
-layouts_dir: _layouts
-data_dir: _data
-includes_dir: _includes
 sass:
   sass_dir: _sass
   style: compressed
@@ -27,8 +20,7 @@ collections:
     output: true
 
 # Handling Reading
-safe: false
-include: [.htaccess, _posts]
+include: [".htaccess", "_posts", "_pages"]
 exclude:
   [
     "Gemfile",
