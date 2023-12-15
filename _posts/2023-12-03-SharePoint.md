@@ -16,7 +16,7 @@ The latest version is currently [SPFx v1.18.2](https://learn.microsoft.com/en-us
 
 Install the latest release of the SharePoint Framework (SPFx) by including the @latest tag:
 
-~~~
+~~~PowerShell
 npm install @microsoft/generator-sharepoint@latest --global
 ~~~
 
@@ -26,7 +26,7 @@ In the project's package.json file, identify all SPFx packages. For each SPFx pa
 
 1. Uninstall the existing packages:
 
-~~~Node
+~~~PowerShell
 npm uninstall @microsoft/{spfx-package-name}
 ~~~
 

@@ -2,7 +2,7 @@ source "https://rubygems.org"
 ruby '3.2.2'
 
 gem 'github-pages', '~> 228'
-gem 'bootstrap', '~> 5.3.2'
+gem 'bootstrap', '~> 5.3', '>= 5.3.2'
 
 group :jekyll_plugins do
   gem "jekyll-feed"

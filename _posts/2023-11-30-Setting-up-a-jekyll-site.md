@@ -4,6 +4,37 @@ title: Building a Website with Jekyll
 author: James
 categories: [Jekyll]
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo sed nulla dapibus commodo. Phasellus vitae consectetur felis. Integer quis lectus vel risus fermentum consectetur.
 
-Sed nec augue at odio fringilla cursus. Nulla facilisi. Suspendisse potenti. Quisque aliquam sagittis arcu, a tempor elit dignissim sed. Nullam eu justo eget nulla cursus gravida. Fusce tincidunt nisl id massa facilisis, vel bibendum est tristique. Duis convallis vehicula magna, vitae varius purus interdum non. Vivamus ullamcorper, ligula sit amet convallis eleifend, elit erat fermentum ligula, vel egestas libero ipsum nec turpis. In hac habitasse platea dictumst. Nam feugiat fermentum justo, eget vehicula elit consectetur sed. Vivamus malesuada nulla eget purus aliquet, in consectetur libero aliquam. Donec accumsan erat at odio tempus eleifend.
+## Jekyll Command Line Commands
+
+### Working with Ruby Gems
+
+Find your Gem path and environment information:
+
+~~~bash
+gem environment
+~~~
+
+Install a gem:
+
+~~~bash
+gem install gem_name
+~~~
+
+Example usage:
+
+~~~bash
+gem install jeykll
+~~~
+
+Install a specific version (Optional):
+
+~~~bash
+gem install jeykll -v 4.3.2
+~~~
+
+Check to see if a gem has been installed correctly:
+
+~~~bash
+gem list gem_name
+~~~

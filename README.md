@@ -6,12 +6,9 @@ _It is a work-in-progress and may contain bugs and layout issues._
 
 ## Jekyll Website Build
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll.svg)][ruby-gems]
-
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
-
-[![Made with Ruby](https://img.shields.io/badge/Ruby->=2.6-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
 [![Made with Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
+[![Made with Ruby](https://img.shields.io/badge/Ruby->=3.2.2-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 ## To Do List
 
