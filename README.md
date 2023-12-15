@@ -8,13 +8,10 @@ _It is a work-in-progress and may contain bugs and layout issues._
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll.svg)][ruby-gems]
 
-[ruby-gems]: <https://rubygems.org/gems/jekyll>
-
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/jekyll-gh-actions-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/jekyll-bootstrap-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![Made with Ruby](https://img.shields.io/badge/Ruby->=2.6-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
-[![Made with Jekyll](https://img.shields.io/badge/Jekyll-4.2-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
+[![Made with Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 
 ## To Do List
 

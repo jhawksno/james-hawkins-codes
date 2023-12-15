@@ -13,24 +13,21 @@ breadcrumbs: true
 
 # Where things are
 sass:
-  sass_dir: _sass
-  style: compressed
-collections:
-  posts:
-    output: true
+  load_paths:
+    - _sass/
+    - vendor/bundle/ruby/3.0.0/gems/
+  # sass_dir: _sass
+  #style: compressed
+#collections:
+#posts:
+#output: true
 
 # Handling Reading
 include: [".htaccess", "_posts", "_pages"]
 exclude:
-  [
-    "Gemfile",
-    "Gemfile.lock",
-    "node_modules",
-    "vendor/bundle/",
-    "vendor/cache/",
-    "vendor/gems/",
-    "vendor/ruby/",
-  ]
+  - README.md
+  - LICENSE
+
 keep_files: [".git", ".svn"]
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
