@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SharePoint Development
+title: SharePoint Framework
 author: James
 categories: [SharePoint]
 ---

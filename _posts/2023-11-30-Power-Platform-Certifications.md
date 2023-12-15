@@ -9,18 +9,17 @@ categories: ["Power Platform"]
 
 Find a free pratice assessments for your exam:
 
-[Practice Assessments](https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications)
+[Practice Assessments](https://learn.microsoft.com/en-us/certifications/practice-assessments-for-microsoft-certifications){:target="_blank"}
 
 ## The Power Platform Certifications  
 
-PL-900: Microsoft Power Platform Fundamentals
-PL-100: Microsoft Power Platform App Maker
-PL-200: Microsoft Power Platform Functional Consultant
-PL-300: Microsoft Power BI Data Analyst
-PL-400: Microsoft Power Platform Developer
-PL-600: Microsoft Power Platform Solution Architect
+[PL-900: Microsoft Power Platform Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-900/){:target="_blank"}\\
+[PL-100: Microsoft Power Platform App Maker](https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-100/){:target="_blank"}\\
+[PL-200: Microsoft Power Platform Functional Consultant](https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-200/)\\
+[PL-300: Microsoft Power BI Data Analyst](https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-300/){:target="_blank"}\\
+[PL-400: Microsoft Power Platform Developer](https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-400/){:target="_blank"}\\
+[PL-600: Microsoft Power Platform Solution Architect](https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-600/){:target="_blank"}\\
 
 ## Developer Tenant and Environment
 
-Welcome to the Microsoft 365 Developer Program | Microsoft Learn
-Get your developer environment - Power Apps | Microsoft Learn
+[Get your developer environment - Power Apps | Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/maker-create-environment){:target="_blank"}
