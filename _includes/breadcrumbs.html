@@ -2,7 +2,7 @@
   {% if page.url != "/" %}
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="{{ site.baseurl }}">Home</a></li>
+      <li class="breadcrumb-item"><a href="{{ site.url }}">Home</a></li>
       {% if page.categories %} {% for category in page.categories %}
       <li class="breadcrumb-item">
         <a href="/categories/{{ category | slugify }}/">{{ category }}</a>
