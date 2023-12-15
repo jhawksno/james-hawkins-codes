@@ -13,6 +13,7 @@ permalink: /blog/
       <p class="text-body-secondary">
         {{ post.date | date: "%B %-d, %Y" }} | {{ post.categories }}
       </p>
+      <p>{{ post.content | number_of_words | divided_by: 180 }} min read</p>
       <p>{{ post.excerpt | strip_html | truncate: 210 }}</p>
     </li>
     {% endfor %}
