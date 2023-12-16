@@ -2,6 +2,7 @@
 layout: post
 title: SharePoint Framework
 author: James
+date: 2023-11-30
 categories: [SharePoint]
 ---
 This area is for SharePoint development posts.

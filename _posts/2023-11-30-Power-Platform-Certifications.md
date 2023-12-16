@@ -2,6 +2,7 @@
 layout: post
 title: Power Platform Certifications
 author: James
+date: 2023-11-30
 categories: ["Power Platform"]
 ---
 

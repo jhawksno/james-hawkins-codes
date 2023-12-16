@@ -2,4 +2,7 @@ $primary: purple;
 $secondary: gray;
 $icon-link-color: #dee2e6;
 
-@import "bootstrap/bootstrap";
+// @import "bootstrap/bootstrap";
+
+// Import Bootstrap from the Bootstrap Gem
+@import "bootstrap-5.3.2/assets/stylesheets/bootstrap";

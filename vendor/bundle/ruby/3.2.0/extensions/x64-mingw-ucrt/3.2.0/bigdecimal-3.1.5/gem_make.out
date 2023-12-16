@@ -1,0 +1,75 @@
+current directory: C:/Users/jhawkins/source/repos/jameshawkins_codes/james-hawkins-codes/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.5/ext/bigdecimal
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+checking for __builtin_clz()... yes
+checking for __builtin_clzl()... yes
+checking for __builtin_clzll()... yes
+checking for float.h... yes
+checking for math.h... yes
+checking for stdbool.h... yes
+checking for stdlib.h... yes
+checking for x86intrin.h... yes
+checking for _lzcnt_u32() in x86intrin.h... no
+checking for _lzcnt_u64() in x86intrin.h... no
+checking for intrin.h... yes
+checking for __lzcnt() in intrin.h... no
+checking for __lzcnt64() in intrin.h... no
+checking for _BitScanReverse() in intrin.h... yes
+checking for _BitScanReverse64() in intrin.h... yes
+checking for labs() in stdlib.h... yes
+checking for llabs() in stdlib.h... yes
+checking for finite() in math.h... yes
+checking for isfinite() in math.h... no
+checking for ruby/atomic.h... yes
+checking for ruby/internal/has/builtin.h... yes
+checking for ruby/internal/static_assert.h... yes
+checking for rb_rational_num() in ruby.h... yes
+checking for rb_rational_den() in ruby.h... yes
+checking for rb_complex_real() in ruby.h... yes
+checking for rb_complex_imag() in ruby.h... yes
+checking for rb_opts_exception_p() in ruby.h... yes
+checking for rb_category_warn() in ruby.h... yes
+checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
+creating Makefile
+
+current directory: C:/Users/jhawkins/source/repos/jameshawkins_codes/james-hawkins-codes/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.5/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20231215-12388-3lwlyz sitelibdir\=./.gem.20231215-12388-3lwlyz clean
+      0 [main] make (8072) C:\Ruby32-x64\msys64\usr\bin\make.exe: *** fatal error - add_item ("\??\C:\Ruby32-x64\msys64", "/", ...) failed, errno 1
+Stack trace:
+Frame         Function      Args
+0007FFFFCD30  00018006119E (00018028FD7A, 000180271B51, 000000008000, 0007FFFF8B30) msys-2.0.dll+0x2119E
+0007FFFFCD30  0001800469BA (000000000000, 0007FFFFCD30, 0001A1000010, 0007FFFFABF0) msys-2.0.dll+0x69BA
+0007FFFFCD30  0001800469F2 (0007FFFF9BC0, 000000000001, 000000008000, 000000000001) msys-2.0.dll+0x69F2
+0007FFFFCD30  00018007E497 (000700000000, 000000000000, 0000FFFFFFFF, 000000000000) msys-2.0.dll+0x3E497
+0007FFFFCD30  000180182A25 (000180073204, 000000000000, 000000000000, 000000000000) msys-2.0.dll+0x142A25
+0007FFFFCD30  000180047012 (000000000000, 000000000000, 000000000000, 000000000000) msys-2.0.dll+0x7012
+0007FFFFFFF0  000180045C86 (000000000000, 000000000000, 000000000000, 000000000000) msys-2.0.dll+0x5C86
+0007FFFFFFF0  000180045D34 (000000000000, 000000000000, 000000000000, 000000000000) msys-2.0.dll+0x5D34
+End of stack trace
+Loaded modules:
+000100400000 make.exe
+7FFC13C50000 ntdll.dll
+7FFC12B00000 KERNEL32.DLL
+7FFC111D0000 KERNELBASE.dll
+000430B30000 msys-intl-8.dll
+000180040000 msys-2.0.dll
+0005603F0000 msys-iconv-2.dll
+7FFC11E20000 advapi32.dll
+7FFC12310000 msvcrt.dll
+7FFC13AE0000 sechost.dll
+7FFC128A0000 RPCRT4.dll
+7FFC107B0000 CRYPTBASE.DLL
+7FFC11640000 bcryptPrimitives.dll
+
+current directory: C:/Users/jhawkins/source/repos/jameshawkins_codes/james-hawkins-codes/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.5/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20231215-12388-3lwlyz sitelibdir\=./.gem.20231215-12388-3lwlyz
+generating bigdecimal-x64-mingw-ucrt.def
+compiling bigdecimal.c
+compiling missing.c
+linking shared-object bigdecimal.so
+
+current directory: C:/Users/jhawkins/source/repos/jameshawkins_codes/james-hawkins-codes/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.5/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20231215-12388-3lwlyz sitelibdir\=./.gem.20231215-12388-3lwlyz install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20231215-12388-3lwlyz
+
+current directory: C:/Users/jhawkins/source/repos/jameshawkins_codes/james-hawkins-codes/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.5/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20231215-12388-3lwlyz sitelibdir\=./.gem.20231215-12388-3lwlyz clean
