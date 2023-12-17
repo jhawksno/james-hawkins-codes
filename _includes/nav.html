@@ -18,14 +18,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link nav-item{% if page.url == '/' %} active{% endif %}" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about/">About</a>
+                <a class="nav-link{% if page.url contains 'about' %} active{% endif %}" href="/about/">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link{% if page.url contains 'blog' or page.url contains 'categories' %} active{% endif %} dropdown-toggle"
                   href="/blog/"
                   id="navbarDropdown"
                   role="button"
@@ -68,7 +68,7 @@
                   </li>
                 </ul>
                 <li class="nav-item">
-                  <a class="nav-link" href="/contact/">Contact</a>
+                  <a class="nav-link{% if page.url contains 'contact' %} active{% endif %}" href="/contact/">Contact</a>
                 </li>
               </li>
             </ul>
