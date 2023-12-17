@@ -8,18 +8,24 @@ categories: [Jekyll]
 
 <div class="container mt-5">
 
-<h1 class="h3 mb-3">Jekyll Command Line Commands</h1>
-
 <h2 class="h5">Working with Ruby Gems</h2>
 
 <p class="mt-3">
     Find your Gem path and environment information:
 <br/>
-<code>gem environment</code>
+ <div class="card text-bg-dark">
+    <div class="card-header">
+        Find your gem path and enironment information:</div>
+      <div class="card-body">
+        <code>gem environment</code>
+        </div>
+      </div>
+</p>
 
 <p class="mt-3">
     Install a gem:<br/>
 <code>gem install gem_name</code>
+</p>
 
 <p class="mt-3">
     Example:
@@ -32,7 +38,7 @@ categories: [Jekyll]
     Install a specific version (Optional):
 </p>
 <p>
-<code >gem install jeykll -v 4.3.2</code>
+<code>gem install jeykll -v 4.3.2</code>
 </p>
 
 <p class="mt-3">
@@ -45,7 +51,7 @@ categories: [Jekyll]
 
 <div class="mt-5">
 
-<h2 class="h5">Working with Ruby Gems</h2>
+<h2 class="h5">Using Bundler with Jekyll</h2>
 
 <p class="mt-3">
 If you find you do not have vender/bundle configured for your Jekyll build, you can install and configure it using the following command:
