@@ -6,6 +6,8 @@ date: 2023-11-30
 categories: ["Power Platform"]
 ---
 
+{{ bootstrap_include }}
+
 ## Practice assessments
 
 Find a free pratice assessments for your exam:

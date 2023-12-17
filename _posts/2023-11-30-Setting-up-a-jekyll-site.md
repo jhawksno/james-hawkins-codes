@@ -1,49 +1,56 @@
 ---
 layout: post
-title: Building a Website with Jekyll
+title: Jekyll Command Line Reference
 author: James
-date: 2023-11-30
+date: 2023-12-16
 categories: [Jekyll]
 ---
 
-## Jekyll Command Line Commands
+<div class="container mt-5">
 
-### Working with Ruby Gems
+<h1 class="h3 mb-3">Jekyll Command Line Commands</h1>
 
-Find your Gem path and environment information:
+<h2 class="h5">Working with Ruby Gems</h2>
 
-~~~bash
-gem environment
-~~~
+<p class="mt-3">
+    Find your Gem path and environment information:
+<br/>
+<code>gem environment</code>
 
-Install a gem:
+<p class="mt-3">
+    Install a gem:<br/>
+<code>gem install gem_name</code>
 
-~~~bash
-gem install gem_name
-~~~
+<p class="mt-3">
+    Example:
+<br/>
 
-Example usage:
+<code>gem install jeykll</code>
+</p>
 
-~~~bash
-gem install jeykll
-~~~
+<p class="mt-3">
+    Install a specific version (Optional):
+</p>
+<p>
+<code >gem install jeykll -v 4.3.2</code>
+</p>
 
-Install a specific version (Optional):
+<p class="mt-3">
+    Check to see if a gem has been installed correctly:
+</p>
+<p>
+    <code>gem list gem_name</code>
+</p>
+</div>
 
-~~~bash
-gem install jeykll -v 4.3.2
-~~~
+<div class="mt-5">
 
-Check to see if a gem has been installed correctly:
+<h2 class="h5">Working with Ruby Gems</h2>
 
-~~~bash
-gem list gem_name
-~~~
-
-## Working with Bundler
-
+<p class="mt-3">
 If you find you do not have vender/bundle configured for your Jekyll build, you can install and configure it using the following command:
+<br/>
 
-~~~Bash
-bundle config set --local path vendor/bundle
-~~~
+<code>bundle config set --local path vendor/bundle</code>
+</p>
+</div>
