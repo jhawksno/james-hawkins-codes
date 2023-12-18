@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Jekyll
+sidebar: jekyllsidebar
 permalink: /categories/jekyll/
 ---
 
@@ -9,7 +10,8 @@ permalink: /categories/jekyll/
 <ul>
   {% for post in site.categories['Jekyll'] %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+    <p>{{ page.excerpt }}</p>
   </li>
   {% endfor %}
 </ul>

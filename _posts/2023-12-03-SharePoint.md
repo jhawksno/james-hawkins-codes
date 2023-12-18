@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SharePoint Framework
+sidebar: sharepointsidebar
 author: James
 date: 2023-11-30
 categories: [SharePoint]

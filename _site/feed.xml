@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-17T11:30:38-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">James_Hawkins.Codes</title><subtitle>This is my personal blog about coding. This site will be built with Jekyll, Bootstrap and GitHub Pages.</subtitle><entry><title type="html">PowerShell Commands</title><link href="http://localhost:4000/powershell/2023/12/17/PowerShell-Commands.html" rel="alternate" type="text/html" title="PowerShell Commands" /><published>2023-12-17T00:00:00-05:00</published><updated>2023-12-17T00:00:00-05:00</updated><id>http://localhost:4000/powershell/2023/12/17/PowerShell-Commands</id><content type="html" xml:base="http://localhost:4000/powershell/2023/12/17/PowerShell-Commands.html">&lt;p&gt;The recommended way to install PowerShell is to use &lt;strong&gt;Winget&lt;/strong&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-18T14:11:30-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">James_Hawkins.Codes</title><subtitle>This is my personal blog about coding. This site will be built with Jekyll, Bootstrap and GitHub Pages.</subtitle><entry><title type="html">PowerShell Commands</title><link href="http://localhost:4000/powershell/2023/12/17/PowerShell-Commands.html" rel="alternate" type="text/html" title="PowerShell Commands" /><published>2023-12-17T00:00:00-05:00</published><updated>2023-12-17T00:00:00-05:00</updated><id>http://localhost:4000/powershell/2023/12/17/PowerShell-Commands</id><content type="html" xml:base="http://localhost:4000/powershell/2023/12/17/PowerShell-Commands.html">&lt;p&gt;The recommended way to install PowerShell is to use &lt;strong&gt;Winget&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;To check for the latest PowerShell and PowerShell Preview versions:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-PS&quot;&gt;winget search Microsoft.PowerShell
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;winget search Microsoft.PowerShell
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Example output:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-PS&quot;&gt;Name               Id                           Version   Source
------------------------------------------------------------------
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Name               Id                           Version   Source
+&lt;span class=&quot;nt&quot;&gt;-----------------------------------------------------------------&lt;/span&gt;
 PowerShell         Microsoft.PowerShell         7.4.0.0   winget
 PowerShell Preview Microsoft.PowerShell.Preview 7.4.0.101 winget
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Install PowerShell or PowerShell Preview using the &lt;em&gt;id&lt;/em&gt; parameter:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-PS&quot;&gt;winget install --id Microsoft.Powershell --source winget
-winget install --id Microsoft.Powershell.Preview --source winget
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>James</name></author><category term="PowerShell" /><summary type="html">The recommended way to install PowerShell is to use Winget.</summary></entry><entry><title type="html">Jekyll Command Line Reference</title><link href="http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site.html" rel="alternate" type="text/html" title="Jekyll Command Line Reference" /><published>2023-12-16T00:00:00-05:00</published><updated>2023-12-16T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site</id><content type="html" xml:base="http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site.html">&lt;div class=&quot;container mt-5&quot;&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;winget &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--id&lt;/span&gt; Microsoft.Powershell &lt;span class=&quot;nt&quot;&gt;--source&lt;/span&gt; winget
+winget &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--id&lt;/span&gt; Microsoft.Powershell.Preview &lt;span class=&quot;nt&quot;&gt;--source&lt;/span&gt; winget
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>James</name></author><category term="PowerShell" /><summary type="html">The recommended way to install PowerShell is to use Winget.</summary></entry><entry><title type="html">Jekyll Command Line Reference</title><link href="http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site.html" rel="alternate" type="text/html" title="Jekyll Command Line Reference" /><published>2023-12-16T00:00:00-05:00</published><updated>2023-12-16T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site</id><content type="html" xml:base="http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site.html">&lt;div class=&quot;container mt-5&quot;&gt;
 
 &lt;h2 class=&quot;h5&quot;&gt;Working with Ruby Gems&lt;/h2&gt;
 
@@ -42,7 +42,9 @@ winget install --id Microsoft.Powershell.Preview --source winget
     Example:
 &lt;br /&gt;
 
-&lt;code&gt;gem install jeykll&lt;/code&gt;
+        &lt;code&gt;
+         &lt;span class=&quot;line&quot;&gt;gem install jeykll&lt;/span&gt;
+        &lt;/code&gt;
 &lt;/p&gt;
 
 &lt;p class=&quot;mt-3&quot;&gt;

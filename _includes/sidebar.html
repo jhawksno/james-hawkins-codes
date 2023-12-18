@@ -1,13 +1,69 @@
-<div class="card text-bg-dark mb-3" style="max-width: 18rem">
-  <div class="card-header">More Reading</div>
-  <div class="card-body">
-    <h5 class="card-title">Categories</h5>
-    <p class="card-text">
-      <ul>
-        {% for category in site.categories %}
-          <li><a href="/categories/{{ category[0] | slugify }}/">{{ category[0] }}</a></li>
-        {% endfor %}
-      </ul>
-    </p>
-  </div>
+<!-- Display Jekyll sidebar on Jekyll pages-->
+<div class="container">
+  {% for item in site.data.jekyllsidebar[page.sidebar] %}
+  <h3>{{ item.title }}</h3>
+  <ul>
+    {% for entry in item.subfolderitems %}
+
+    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
+
+<!-- Display Power Platform sidebar on Power Platform pages-->
+<div class="container">
+  {% for item in site.data.powerplatformsidebar[page.sidebar] %}
+  <h3>{{ item.title }}</h3>
+  <ul>
+    {% for entry in item.subfolderitems %}
+
+    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
+
+<!-- Display PowerShell sidebar on Power Shell pages-->
+<div class="container">
+  {% for item in site.data.powershellsidebar[page.sidebar] %}
+  <h3>{{ item.title }}</h3>
+  <ul>
+    {% for entry in item.subfolderitems %}
+
+    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
+
+<!-- Display General sidebar on General pages-->
+<div class="container">
+  {% for item in site.data.generalsidebar[page.sidebar] %}
+  <h3>{{ item.title }}</h3>
+  <ul>
+    {% for entry in item.subfolderitems %}
+
+    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
+
+<!-- Display SharePoint sidebar on SharePoint pages-->
+<div class="container">
+  {% for item in site.data.sharepointsidebar[page.sidebar] %}
+  <h3>{{ item.title }}</h3>
+  <ul>
+    {% for entry in item.subfolderitems %}
+
+    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+
+    {% endfor %}
+  </ul>
+  {% endfor %}
 </div>

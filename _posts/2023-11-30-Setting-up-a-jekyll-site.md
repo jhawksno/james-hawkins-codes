@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jekyll Command Line Reference
+sidebar: jekyllsidebar
 author: James
 date: 2023-12-16
 categories: [Jekyll]
@@ -31,7 +32,9 @@ categories: [Jekyll]
     Example:
 <br/>
 
-<code>gem install jeykll</code>
+        <code>
+         <span class="line">gem install jeykll</span>
+        </code>
 </p>
 
 <p class="mt-3">

@@ -17,11 +17,6 @@ sass:
   load_paths:
     - _sass/
     - vendor/bundle/ruby/3.2.0/gems/
-  # sass_dir: _sass
-  #style: compressed
-#collections:
-#posts:
-#output: true
 
 # Handling Reading
 include: [".htaccess", "_posts", "_pages"]

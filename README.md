@@ -12,11 +12,11 @@ _It is a work-in-progress and may contain bugs and layout issues._
 
 ## To Do List
 
-- Fix badges on README.md
+- ~~Fix badges on README.md~~
 - Add pagination to blog page and blog posts
-- Add social media links to footer
+- ~~Add social media links to footer~~
 - Format Catagories pages
-- Build the About Me page
+- ~~Build the About Me page~~
 - Add a Contact page with contact form
 - Add functioning Search form
 - Add Archives for posts

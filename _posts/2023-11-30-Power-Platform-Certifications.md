@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Power Platform Certifications
+sidebar: powerplatformsidebar
 author: James
 date: 2023-11-30
 categories: ["Power Platform"]

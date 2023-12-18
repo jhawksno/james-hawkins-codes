@@ -1,0 +1,29 @@
+jekyllsidebar:
+  - title: Jekyll Resources
+    subfolderitems:
+      - page: Jekyll Website
+        url: https://jekyllrb.com/
+      - page: Jekyll Talk (Forum)
+        url: https://talk.jekyllrb.com/
+      - page: Jekyll Github
+        url: https://github.com/jekyll/jekyll
+  - title: Video Tutorials
+    subfolderitems:
+      - page: Video Walkthroughs
+        url: https://jekyllrb.com/tutorials/video-walkthroughs
+      - page: Introduction to Jekyll
+        url: https://youtu.be/T1itpPvFWHI?si=D_0jqSp6Doe76utz
+      - page: Installing Jekyll on Windows
+        url: https://youtu.be/LfP7Y9Ja6Qc?si=cEETRmWTJcUSWRQe
+  - title: Categories
+    subfolderitems:
+      - page: General
+        url: /categories/general/
+      - page: Jekyll
+        url: /categories/jekyll/
+      - page: Power Platform
+        url: /categories/power-platform/
+      - page: PowerShell
+        url: /categories/powershell/
+      - page: SharePoint
+        url: /categories/sharepoint/
