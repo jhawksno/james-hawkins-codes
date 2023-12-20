@@ -8,6 +8,7 @@ _It is a work-in-progress and may contain bugs and layout issues._
 
 [![Made with Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 [![Made with Ruby](https://img.shields.io/badge/Ruby->=3.2.2-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
+![Static Badge](https://img.shields.io/badge/Bootstrap-5.3.2-blue?logo=bootstrap&logoColor=white&color=%237952B3&link=www.getbootstrap.com)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 ## To Do List
@@ -17,12 +18,12 @@ _It is a work-in-progress and may contain bugs and layout issues._
 - ~~Add social media links to footer~~
 - Format Catagories pages
 - ~~Build the About Me page~~
-- Add a Contact page with contact form
+- ~~Add a Contact page~~ with contact form
 - Add functioning Search form
 - Add Archives for posts
 - Organize Bootstrap imports
 - Remove unused Bootstrap files
-- Add a Changelog.md
+- ~~Add a Changelog.md~~
 - Clean up and improve layouts, clean up layout code
 - Clean up and improve includes, clean up includes code
 - Remove all unnecessary website files
