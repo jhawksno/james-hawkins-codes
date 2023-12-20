@@ -1,20 +1,22 @@
 powershellsidebar:
   - title: Powershell Resources
     subfolderitems:
-      - page: Jekyll Website
-        url: https://jekyllrb.com/
-      - page: Jekyll Talk (Forum)
-        url: https://talk.jekyllrb.com/
-      - page: Jekyll Github
-        url: https://github.com/jekyll/jekyll
-  - title: Video Tutorials
+      - page: Official Documentation
+        url: https://learn.microsoft.com/en-us/powershell/
+      - page: PowerShell Gallery
+        url: https://www.powershellgallery.com/
+      - page: PowerShell Github
+        url: https://github.com/PowerShell/PowerShell
+  - title: Learning Pathways
     subfolderitems:
-      - page: Video Walkthroughs
-        url: https://jekyllrb.com/tutorials/video-walkthroughs
-      - page: Introduction to Jekyll
-        url: https://youtu.be/T1itpPvFWHI?si=D_0jqSp6Doe76utz
-      - page: Installing Jekyll on Windows
-        url: https://youtu.be/LfP7Y9Ja6Qc?si=cEETRmWTJcUSWRQe
+      - page: Getting Started with PowerShell
+        url: https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/?source=recommendations
+      - page: Automate Administrative Tasks
+        url: https://learn.microsoft.com/en-us/training/paths/powershell/
+      - page: Maintain System Administration Tasks
+        url: https://learn.microsoft.com/en-us/training/paths/maintain-system-administration-tasks-windows-powershell/
+      - page: PowerShell 5.1 vs 7.X
+        url: https://learn.microsoft.com/en-us/powershell/scripting/whats-new/differences-from-windows-powershell?view=powershell-7.4
   - title: Categories
     subfolderitems:
       - page: General
