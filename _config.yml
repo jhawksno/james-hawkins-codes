@@ -1,7 +1,7 @@
 # Site settings
 version: 4.3.2
 locale: "en-US"
-title: "James_Hawkins.Codes"
+title: "James Hawkins"
 title_seperator: "-"
 subtitle: #site tagline
 name: "James Hawkins"
@@ -10,6 +10,10 @@ url: "https://jameshawkins.codes"
 baseurl: "/"
 repository: "jhawksno/james-hawkins-codes"
 breadcrumbs: true
+
+algolia:
+  application_id: WL8CI117VO
+  index_name: james_hawkins_codes
 
 # Where things are
 sass:

@@ -1,78 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-18T14:11:30-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">James_Hawkins.Codes</title><subtitle>This is my personal blog about coding. This site will be built with Jekyll, Bootstrap and GitHub Pages.</subtitle><entry><title type="html">PowerShell Commands</title><link href="http://localhost:4000/powershell/2023/12/17/PowerShell-Commands.html" rel="alternate" type="text/html" title="PowerShell Commands" /><published>2023-12-17T00:00:00-05:00</published><updated>2023-12-17T00:00:00-05:00</updated><id>http://localhost:4000/powershell/2023/12/17/PowerShell-Commands</id><content type="html" xml:base="http://localhost:4000/powershell/2023/12/17/PowerShell-Commands.html">&lt;p&gt;The recommended way to install PowerShell is to use &lt;strong&gt;Winget&lt;/strong&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-19T23:26:29-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">James Hawkins</title><subtitle>This is my personal blog about coding. This site will be built with Jekyll, Bootstrap and GitHub Pages.</subtitle><entry><title type="html">PowerShell Commands</title><link href="http://localhost:4000/powershell/2023/12/17/PowerShell-Commands.html" rel="alternate" type="text/html" title="PowerShell Commands" /><published>2023-12-17T00:00:00-05:00</published><updated>2023-12-17T00:00:00-05:00</updated><id>http://localhost:4000/powershell/2023/12/17/PowerShell-Commands</id><content type="html" xml:base="http://localhost:4000/powershell/2023/12/17/PowerShell-Commands.html">&lt;p&gt;The recommended way to install PowerShell is to use &lt;strong&gt;Winget&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;To check for the latest PowerShell and PowerShell Preview versions:&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;winget search Microsoft.PowerShell
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-powershell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;winget&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Microsoft.PowerShell&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Example output:&lt;/p&gt;
 
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Name               Id                           Version   Source
-&lt;span class=&quot;nt&quot;&gt;-----------------------------------------------------------------&lt;/span&gt;
-PowerShell         Microsoft.PowerShell         7.4.0.0   winget
-PowerShell Preview Microsoft.PowerShell.Preview 7.4.0.101 winget
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-powershell&quot; data-lang=&quot;powershell&quot;&gt;&lt;span class=&quot;n&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;               &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Id&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;                           &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Version&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Source&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-----------------------------------------------------------------&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PowerShell&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;         &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Microsoft.PowerShell&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;         &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;7.4.0.0&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;   &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;winget&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PowerShell&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Preview&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Microsoft.PowerShell.Preview&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;7.4.0.101&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;winget&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Install PowerShell or PowerShell Preview using the &lt;em&gt;id&lt;/em&gt; parameter:&lt;/p&gt;
 
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;winget &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--id&lt;/span&gt; Microsoft.Powershell &lt;span class=&quot;nt&quot;&gt;--source&lt;/span&gt; winget
-winget &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--id&lt;/span&gt; Microsoft.Powershell.Preview &lt;span class=&quot;nt&quot;&gt;--source&lt;/span&gt; winget
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>James</name></author><category term="PowerShell" /><summary type="html">The recommended way to install PowerShell is to use Winget.</summary></entry><entry><title type="html">Jekyll Command Line Reference</title><link href="http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site.html" rel="alternate" type="text/html" title="Jekyll Command Line Reference" /><published>2023-12-16T00:00:00-05:00</published><updated>2023-12-16T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site</id><content type="html" xml:base="http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site.html">&lt;div class=&quot;container mt-5&quot;&gt;
+&lt;div class=&quot;language-powershell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;winget&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--id&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Microsoft.Powershell&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--source&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;winget&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;winget&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--id&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Microsoft.Powershell.Preview&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--source&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;winget&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>James</name></author><category term="PowerShell" /><summary type="html">The recommended way to install PowerShell is to use Winget.</summary></entry><entry><title type="html">Jekyll Command Line Reference</title><link href="http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site.html" rel="alternate" type="text/html" title="Jekyll Command Line Reference" /><published>2023-12-16T00:00:00-05:00</published><updated>2023-12-16T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site</id><content type="html" xml:base="http://localhost:4000/jekyll/2023/12/16/Setting-up-a-jekyll-site.html">&lt;h2 id=&quot;working-with-ruby-gems&quot;&gt;Working with Ruby Gems&lt;/h2&gt;
 
-&lt;h2 class=&quot;h5&quot;&gt;Working with Ruby Gems&lt;/h2&gt;
+&lt;p&gt;Find your gem path and enironment information:&lt;/p&gt;
 
-&lt;p class=&quot;mt-3&quot;&gt;
-    Find your Gem path and environment information:
-&lt;br /&gt;
- &lt;div class=&quot;card text-bg-dark&quot;&gt;
-    &lt;div class=&quot;card-header&quot;&gt;
-        Find your gem path and enironment information:&lt;/div&gt;
-      &lt;div class=&quot;card-body&quot;&gt;
-        &lt;code&gt;gem environment&lt;/code&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem environment
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p class=&quot;mt-3&quot;&gt;
-    Install a gem:&lt;br /&gt;
-&lt;code&gt;gem install gem_name&lt;/code&gt;
-&lt;/p&gt;
+&lt;p&gt;Install a gem:&lt;/p&gt;
 
-&lt;p class=&quot;mt-3&quot;&gt;
-    Example:
-&lt;br /&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;gem_name
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-        &lt;code&gt;
-         &lt;span class=&quot;line&quot;&gt;gem install jeykll&lt;/span&gt;
-        &lt;/code&gt;
-&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
 
-&lt;p class=&quot;mt-3&quot;&gt;
-    Install a specific version (Optional):
-&lt;/p&gt;
-&lt;p&gt;
-&lt;code&gt;gem install jeykll -v 4.3.2&lt;/code&gt;
-&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jeykll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p class=&quot;mt-3&quot;&gt;
-    Check to see if a gem has been installed correctly:
-&lt;/p&gt;
-&lt;p&gt;
-    &lt;code&gt;gem list gem_name&lt;/code&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;Install a specific version (Optional):&lt;/p&gt;
 
-&lt;div class=&quot;mt-5&quot;&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jeykll &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; 4.3.2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 class=&quot;h5&quot;&gt;Using Bundler with Jekyll&lt;/h2&gt;
+&lt;p&gt;Check to see if a gem has been installed correctly:&lt;/p&gt;
 
-&lt;p class=&quot;mt-3&quot;&gt;
-If you find you do not have vender/bundle configured for your Jekyll build, you can install and configure it using the following command:
-&lt;br /&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem list gem_name
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;code&gt;bundle config set --local path vendor/bundle&lt;/code&gt;
-&lt;/p&gt;
-&lt;/div&gt;</content><author><name>James</name></author><category term="Jekyll" /><summary type="html"></summary></entry><entry><title type="html">Power Platform Certifications</title><link href="http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications.html" rel="alternate" type="text/html" title="Power Platform Certifications" /><published>2023-11-30T00:00:00-05:00</published><updated>2023-11-30T00:00:00-05:00</updated><id>http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications</id><content type="html" xml:base="http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications.html">&lt;h2 id=&quot;practice-assessments&quot;&gt;Practice assessments&lt;/h2&gt;
+&lt;h2 id=&quot;using-bundler-with-jekyll&quot;&gt;Using Bundler with Jekyll&lt;/h2&gt;
+
+&lt;p&gt;If you find you do not have vender/bundle configured for your Jekyll build, you can install and configure it using the following command:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle config &lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--local&lt;/span&gt; path vendor/bundle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>James</name></author><category term="Jekyll" /><summary type="html">Working with Ruby Gems</summary></entry><entry><title type="html">Power Platform Certifications</title><link href="http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications.html" rel="alternate" type="text/html" title="Power Platform Certifications" /><published>2023-11-30T00:00:00-05:00</published><updated>2023-11-30T00:00:00-05:00</updated><id>http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications</id><content type="html" xml:base="http://localhost:4000/power%20platform/2023/11/30/Power-Platform-Certifications.html">&lt;h2 id=&quot;practice-assessments&quot;&gt;Practice assessments&lt;/h2&gt;
 
 &lt;p&gt;Find a free pratice assessments for your exam:&lt;/p&gt;
 
