@@ -7,9 +7,8 @@ _It is a work-in-progress and may contain bugs and layout issues._
 ## Jekyll Website Build
 
 [![Made with Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
-[![Made with Ruby](https://img.shields.io/badge/Ruby->=3.2.2-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
-![RubyGems](https://img.shields.io/badge/RubyGems-3.5.1-label?logo=rubygems&logoColor=white&color=%23E9573F&link=https%3A%2F%2Frubygems.org%2F)
-
+[![Made with Ruby](https://img.shields.io/badge/Ruby->=3.2.2-label?logo=ruby&logoColor=white&color=%CC342D)](https://ruby-lang.org)
+[![RubyGems](https://img.shields.io/badge/RubyGems-3.5.1-label?logo=rubygems&logoColor=white&color=%23E9573F)](https://rubygems.org/pages/download)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.2-label?logo=bootstrap&logoColor=white&color=%237952B3)](<https://www.getbootstrap.com>)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
