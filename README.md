@@ -8,7 +8,9 @@ _It is a work-in-progress and may contain bugs and layout issues._
 
 [![Made with Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 [![Made with Ruby](https://img.shields.io/badge/Ruby->=3.2.2-blue?logo=ruby&logoColor=white)](https://ruby-lang.org)
-![Static Badge](https://img.shields.io/badge/Bootstrap-5.3.2-blue?logo=bootstrap&logoColor=white&color=%237952B3&link=www.getbootstrap.com)
+![RubyGems](https://img.shields.io/badge/RubyGems-3.5.1-label?logo=rubygems&logoColor=white&color=%23E9573F&link=https%3A%2F%2Frubygems.org%2F)
+
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.2-label?logo=bootstrap&logoColor=white&color=%237952B3)](<https://www.getbootstrap.com>)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 ## To Do List
