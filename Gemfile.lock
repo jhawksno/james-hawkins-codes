@@ -45,7 +45,7 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.9.1)
-    faraday (2.7.12)
+    faraday (2.8.0)
       base64
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
@@ -299,6 +299,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap (~> 5.3, >= 5.3.2)
   github-pages (~> 228)
+  jekyll (~> 3)
   jekyll-algolia (~> 1.7, >= 1.7.1)
   jekyll-feed
   jekyll-paginate (~> 1.1)
