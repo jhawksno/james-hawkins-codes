@@ -17,6 +17,14 @@ powershellsidebar:
         url: https://learn.microsoft.com/en-us/training/paths/maintain-system-administration-tasks-windows-powershell/
       - page: PowerShell 5.1 vs 7.X
         url: https://learn.microsoft.com/en-us/powershell/scripting/whats-new/differences-from-windows-powershell?view=powershell-7.4
+  - title: Powershell Community
+    subfolderitems:
+      - page: PowerShell Team Blog
+        url: https://devblogs.microsoft.com/powershell/
+      - page: PowerShell Tech Community
+        url: https://techcommunity.microsoft.com/t5/powershell/ct-p/WindowsPowerShell
+      - page: PowerShell.org (Forums)
+        url: https://forums.powershell.org/
   - title: Categories
     subfolderitems:
       - page: General
