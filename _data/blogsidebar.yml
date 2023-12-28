@@ -1,0 +1,17 @@
+blogsidebar:
+  - title: Categories
+    subfolderitems:
+      - page: General
+        url: /categories/general/
+      - page: Jekyll
+        url: /categories/jekyll/
+      - page: Power Platform
+        url: /categories/power-platform/
+      - page: PowerShell
+        url: /categories/powershell/
+      - page: SharePoint
+        url: /categories/sharepoint/
+  - title: Community Resources
+    subfolderitems:
+      - page: Sudbury Power Platform User Group
+        url: https://powerusers.microsoft.com/t5/Sudbury-Power-Platform-User/gh-p/SudburyPowerPlatformUserGroup

@@ -5,12 +5,17 @@ sidebar: generalsidebar
 permalink: /categories/general/
 ---
 
-<h2>General:</h2>
+<h2 class="h2">General</h2>
+<p class="lead pb-3">
+  A collection of articles that don't fit into a specific category.
+</p>
 
-<ul>
+<ul class="list-unstyled">
   {% for post in site.categories['General'] %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <h2 class="h4"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <span class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</span>
+    <p>{{ post.excerpt | strip_html | truncate: 500 }}</p>
   </li>
   {% endfor %}
 </ul>

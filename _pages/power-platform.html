@@ -5,11 +5,17 @@ sidebar: powerplatformsidebar
 permalink: /categories/power-platform/
 ---
 
-<h2>Power Platform:</h2>
-<ul>
+<h2 class="h2">Power Platform</h2>
+<p class="lead pb-3">
+  A collection of articles related to the Microsoft Power Platform.
+</p>
+
+<ul class="list-unstyled">
   {% for post in site.categories['Power Platform'] %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <h2 class="h4"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <span class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</span>
+    <p>{{ post.excerpt | strip_html | truncate: 500 }}</p>
   </li>
   {% endfor %}
 </ul>

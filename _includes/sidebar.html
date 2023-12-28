@@ -1,7 +1,21 @@
+<!-- Display Blog sidebar on main Blog page-->
+<div class="container">
+  {% for item in site.data.blogsidebar[page.sidebar] %}
+  <h5>{{ item.title }}</h5>
+  <ul>
+    {% for entry in item.subfolderitems %}
+
+    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
+
 <!-- Display Jekyll sidebar on Jekyll pages-->
 <div class="container">
   {% for item in site.data.jekyllsidebar[page.sidebar] %}
-  <h3>{{ item.title }}</h3>
+  <h5>{{ item.title }}</h5>
   <ul>
     {% for entry in item.subfolderitems %}
 
@@ -15,7 +29,7 @@
 <!-- Display Power Platform sidebar on Power Platform pages-->
 <div class="container">
   {% for item in site.data.powerplatformsidebar[page.sidebar] %}
-  <h3>{{ item.title }}</h3>
+  <h5>{{ item.title }}</h5>
   <ul>
     {% for entry in item.subfolderitems %}
 
@@ -29,7 +43,7 @@
 <!-- Display PowerShell sidebar on Power Shell pages-->
 <div class="container">
   {% for item in site.data.powershellsidebar[page.sidebar] %}
-  <h3>{{ item.title }}</h3>
+  <h5>{{ item.title }}</h5>
   <ul>
     {% for entry in item.subfolderitems %}
 
@@ -43,7 +57,7 @@
 <!-- Display General sidebar on General pages-->
 <div class="container">
   {% for item in site.data.generalsidebar[page.sidebar] %}
-  <h3>{{ item.title }}</h3>
+  <h5>{{ item.title }}</h5>
   <ul>
     {% for entry in item.subfolderitems %}
 
@@ -57,11 +71,13 @@
 <!-- Display SharePoint sidebar on SharePoint pages-->
 <div class="container">
   {% for item in site.data.sharepointsidebar[page.sidebar] %}
-  <h3>{{ item.title }}</h3>
+  <h5>{{ item.title }}</h5>
   <ul>
     {% for entry in item.subfolderitems %}
 
-    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+    <li>
+      <a href="{{ entry.url }}">{{ entry.page }}</a>
+    </li>
 
     {% endfor %}
   </ul>

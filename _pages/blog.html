@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Blog
+sidebar: blogsidebar
 permalink: /blog/
 ---
 
@@ -14,7 +15,7 @@ permalink: /blog/
         {{ post.date | date: "%B %-d, %Y" }} | {{ post.categories }}
       </p>
       <p>{{ post.content | number_of_words | divided_by: 180 }} min read</p>
-      <p>{{ post.excerpt | strip_html | truncate: 210 }}</p>
+      <p>{{ post.excerpt | strip_html | truncate: 310 }}</p>
     </li>
     {% endfor %}
   </ul>
