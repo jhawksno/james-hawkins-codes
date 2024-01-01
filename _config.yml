@@ -20,7 +20,7 @@ sass:
   sass_dir: _sass
   load_paths:
     - _sass/
-    - vendor/bundle/ruby/3.2.0/gems/
+    - vendor/bundle/ruby/2.7.0/gems/
 
 # Handling Reading
 include: [".htaccess", "_posts", "_pages"]
