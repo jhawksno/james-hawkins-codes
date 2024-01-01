@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-# Ensure compantiblity with GitHub pages
+# Ensure compatiblity with GitHub pages
 ruby '2.7.4'
 gem 'jekyll', '3.9.3'
 gem 'github-pages', '228'
