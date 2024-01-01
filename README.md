@@ -11,7 +11,6 @@ _It is a work-in-progress and may contain bugs and layout issues._
 [![RubyGems](https://img.shields.io/badge/RubyGems-3.5.1-label?logo=rubygems&logoColor=white&color=%23E9573F)](https://rubygems.org/pages/download)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.2-label?logo=bootstrap&logoColor=white&color=%237952B3)](<https://www.getbootstrap.com>)
 [![Deploy Jekyll site to Pages](https://github.com/jhawksno/james-hawkins-codes/actions/workflows/jekyll.yml/badge.svg)](https://github.com/jhawksno/james-hawkins-codes/actions/workflows/jekyll.yml)
-[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 
 ## To Do List
 
