@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby '~> 3.2.2'
 gem 'rubocop', require: false
-#gem 'jekyll', '~> 3'
+gem 'jekyll', '~> 3'
 
 gem 'github-pages', '~> 228'
 gem 'bootstrap', '~> 5.3', '>= 5.3.2'
