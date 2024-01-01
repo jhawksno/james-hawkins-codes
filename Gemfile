@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # Ensure compatiblity with GitHub pages
 ruby '2.7.4'
-gem 'jekyll', '3.9.3'
+#gem 'jekyll', '3.9.3'
 gem 'github-pages', '228'
 
 gem 'bootstrap', '~> 5.3', '>= 5.3.2'
