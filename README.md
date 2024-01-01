@@ -10,6 +10,7 @@ _It is a work-in-progress and may contain bugs and layout issues._
 [![Made with Ruby](https://img.shields.io/badge/Ruby->=3.2.2-label?logo=ruby&logoColor=white&color=%23CC342D)](https://ruby-lang.org)
 [![RubyGems](https://img.shields.io/badge/RubyGems-3.5.1-label?logo=rubygems&logoColor=white&color=%23E9573F)](https://rubygems.org/pages/download)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.2-label?logo=bootstrap&logoColor=white&color=%237952B3)](<https://www.getbootstrap.com>)
+[![Deploy Jekyll site to Pages](https://github.com/jhawksno/james-hawkins-codes/actions/workflows/jekyll.yml/badge.svg)](https://github.com/jhawksno/james-hawkins-codes/actions/workflows/jekyll.yml)
 
 ## To Do List
 
