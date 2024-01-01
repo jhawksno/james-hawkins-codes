@@ -293,7 +293,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  x64-mingw32
+  x64-mingw32, ruby, x86_64-linux
 
 DEPENDENCIES
   bootstrap (~> 5.3, >= 5.3.2)
