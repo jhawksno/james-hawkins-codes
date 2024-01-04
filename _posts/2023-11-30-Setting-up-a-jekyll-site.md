@@ -11,31 +11,31 @@ categories: [Jekyll]
 
 Find your gem path and enironment information:
 
-~~~shell
+~~~bash
 gem environment
 ~~~
 
 Install a gem:
 
-~~~shell
+~~~bash
 gem install gem_name
 ~~~
 
 Example:
 
-~~~shell
+~~~bash
 gem install jeykll
 ~~~
 
 Install a specific version (Optional):
 
-~~~shell
+~~~bash
 gem install jeykll -v 4.3.2
 ~~~
 
 Check to see if a gem has been installed correctly:
 
-~~~shell
+~~~bash
 gem list gem_name
 ~~~
 
@@ -43,6 +43,6 @@ gem list gem_name
 
 If you find you do not have vender/bundle configured for your Jekyll build, you can install and configure it using the following command:
 
-~~~shell
+~~~bash
 bundle config set --local path vendor/bundle
 ~~~

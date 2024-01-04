@@ -1,5 +1,7 @@
 # Dec 18, 2023
 
+[Version 0.0.2]
+
 - Added custom sidebars for posts and pages that display content based on the content category.
   - Created YML files for each custom sidebar which are located in the **_data** folder.
   - Added Frontmatter to posts and pages that reference which custom sidebar to display.
